@@ -1,0 +1,11 @@
+.container-square {
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

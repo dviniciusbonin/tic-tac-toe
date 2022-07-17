@@ -1,0 +1,40 @@
+
+.container-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 900px;
+    margin: auto;
+}
+
+.board-row {
+    display: flex;
+    width: 80%;
+}
+
+.status {
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    background-color: darkgrey;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.footer {
+    margin: 1rem;
+}
+
+.footer button {
+    outline: 0;
+    border: 0;
+
+    background-color: darkgray;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 30px;
+}
